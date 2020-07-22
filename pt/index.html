@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <!-- Font awesome -->
+  <script defer="" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- My stylesheet -->
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../script.js" defer></script>
+
+  <title>André Nascimento</title>
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="title">
+        André Nascimento
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="./andreNascimentoCV.pdf">Currículo <i class="fas fa-download"></i></a></li>
+          <li><a href="#" id="display-language">Idioma <i class="fas fa-chevron-down"></i></a></li>
+        </ul>
+      </div>
+      <div class="language-options">
+        <ul>
+          <li><a href="index.html"><img style="width:1.2rem" src="../images/brazil.svg" alt="brazil-flag"> PT-BR</li></a>
+          <li><a href="../en/index.html"><img style="width:1.2rem" src="../images/us.svg" alt="us-flag"> EN-US</li></a>
+        </ul>
+      </div>
+    </nav>
+
+
+  <main>
+    <section class="intro flex flex2">
+      <div class="presentation">
+        <p style="font-size:1.6rem">ANDRÉ NASCIMENTO</p>
+        <p>Bem-vindo! Eu sou um desenvolvedor full stack autodidata e geofísico que mora em Brasília, Brasil.
+        Eu tenho uma grande paixão por desenvolvimento e pesquisa.</p>
+      </div>
+      <div class="read-more-btn">
+        <a href="#portfolio">Ler mais</a>
+        <p><i class="fas fa-chevron-down"></i></p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio colored-section">
+      <div class="text-container intro-port">
+        <h2 class="title-font">Portfolio</h2>
+        <p>Aqui você pode ver alguns projetos que apresentam algumas das minhas
+          habilidades. Cada projeto possui um link para o código fonte, hospedado
+          no GitHub, e um link que permite ver o site ao vivo na Internet. As versões
+          ao vivo de aplicações feitas com React estão hospedadas no
+        <a style="text-decoration:none; color:#F57FD0" href="https://codesandbox.io/" target="_blank">CodeSandBox</a>,
+      e talvez seja necessário utilizar outro navegador para visualizá-las.</p>
+      </div>
+      <div class="card-container flex">
+        <div class="card">
+          <img class="port-img" src="../images/Restful-countries-api.png" alt="countries">
+          <div class="port-info">
+            <span>Encontre informações úteis e legais sobre a maior parte dos países do mundo.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/countries" target="_blank"><button type="button" name="button">Ver código <i class="fas fa-code"></i></button></a>
+            <a href="https://bcjl1.csb.app/" target="_blank"><button type="button" name="button">Ver site <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Secrets.png" alt="secrets">
+          <div class="port-info">
+            <span>Não guarde segredos, compartilhe-os anonimamente!</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/secrets" target="_blank"><button type="button" name="button">Ver código <i class="fas fa-code"></i></button></a>
+            <a href="https://a-secrets-app.herokuapp.com/" target="_blank"><button type="button" name="button">Ver site <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Dashboard.png" alt="dashboard">
+          <div class="port-info">
+            <span>Um painel que mostra de forma intuitiva um resumo dos números das suas redes sociais.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/social-media-dashboard" target="_blank"><button type="button" name="button">Ver código <i class="fas fa-code"></i></button></a>
+            <a href="https://178i9.csb.app/" target="_blank"><button type="button" name="button">Ver site <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Rock-paper-scissors.png" alt="rps">
+          <div class="port-info">
+            <span>Vença o computador no jogo Pedra, Papel e Tesoura.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/rock-paper-scissors" target="_blank"><button type="button" name="button">Ver código <i class="fas fa-code"></i></button></a>
+            <a href="https://nascimentoandre.github.io/rock-paper-scissors/" target="_blank"><button type="button" name="button">Ver site <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Notes.png" alt="notes">
+          <div class="port-info">
+            <span>Use o Notes para planejar o seu dia e para lembrar-se de obrigações importantes.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/notes" target="_blank"><button type="button" name="button">Ver código <i class="fas fa-code"></i></button></a>
+            <a href="https://qb1ci.csb.app/" target="_blank"><button type="button" name="button">Ver site <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Tindog.png" alt="tindog">
+          <div class="port-info">
+            <span>Ajude o seu cachorro a encontrar o amor da sua vida com o TinDog!</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/tindog" target="_blank"><button type="button" name="button">Ver código <i class="fas fa-code"></i></button></a>
+            <a href="https://nascimentoandre.github.io/tindog/" target="_blank"><button type="button" name="button">Ver site <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="text-container">
+        <h2 class="title-font">Habilidades</h2>
+      </div>
+      <div class="flex card-container">
+        <div class="skill-card">
+          <h3>Linguagens de programação</h3>
+          <hr>
+          <ul>
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <hr>
+          <ul>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-react"></i> React</li>
+            <li><img id="icon-bootstrap" src="../images/bootstrap.svg"> Bootstrap</li>
+            <li><img class="icon" src="../images/jquery-horizontal.svg"> jQuery</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <hr>
+          <ul>
+            <li><i class="fab fa-node"></i> NodeJS</li>
+            <li><i class="fab fa-node-js"></i> ExpressJS</li>
+            <li><img class="icon" src="../images/mongoDB.svg"> MongoDB</li>
+            <li><i class="fas fa-lock"></i> Autenticação e segurança</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Outros</h3>
+          <hr>
+          <ul>
+            <li><i class="fas fa-terminal"></i> Comandos Bash</li>
+            <li><i class="fab fa-git"></i> Git</li>
+            <li><i class="fab fa-github"></i> GitHub</li>
+            <li><i class="fas fa-cloud-download-alt"></i> APIs RESTful</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="education colored-section">
+      <div class="text-container">
+        <h2 class="title-font">Educação</h2>
+        <div class="flex">
+          <div style="width: 25rem">
+            <h3><i class="fas fa-graduation-cap"></i> Universidade de Brasília (2017-2019)</h3>
+            <span>Mestrado em Geociências Aplicadas e Geodinâmica.</span>
+            <br>
+            <span>Orientador: <a href="http://lattes.cnpq.br/1804846635564396" target="_blank">George Sand L. A. de França.</a></span>
+          </div>
+          <div style="width: 25rem">
+            <h3><i class="fas fa-graduation-cap"></i> Universidade de Brasília (2013-2017)</h3>
+            <span>Graduação em Geofísica.</span>
+            <br>
+            <span>Orientadora: <a href="http://lattes.cnpq.br/1653761563295281" target="_blank">Monica Giannoccaro Von Huelsen.</a></span>
+          </div>
+        </div>
+        <div>
+          <h2 class="title-font">Algumas coisas que quero aprender em 2020</h2>
+          <ul style="margin-left:4rem; padding-bottom:3rem">
+            <li>Django;</li>
+            <li>Machine/deep learning;</li>
+            <li>C++;</li>
+            <li>Blockchain;</li>
+            <li>Trading.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="text-container">
+        <h2 class="title-font">Contato</h2>
+      </div>
+      <div class="flex card-container">
+        <a style="text-decoration:none; color:black" href="mailto:andre_vinicius1@live.com">
+          <div class="contact-item">
+            <i class="far fa-envelope contact-icon"></i>
+            <h4>Email</h4>
+            <span>Envie-me um email.</span>
+          </div>
+        </a>
+        <a style="text-decoration:none; color:black" href="https://github.com/nascimentoandre" target="_blank">
+          <div class="contact-item">
+            <i class="fab fa-github contact-icon"></i>
+            <h4>GitHub</h4>
+            <span>Confira meu repositório do GitHub.</span>
+          </div>
+        </a>
+        <a style="text-decoration:none; color:black" href="https://codesandbox.io/u/nascimentoandre" target="_blank">
+          <div class="contact-item">
+            <img id="icon-csb" class="contact-icon" src="../images/codesandbox.svg" alt="csb">
+            <h4>CodeSandBox</h4>
+            <span>Principalmente sand boxes de React.</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>André Nascimento</p>
+  </footer>
+</body>
+
+</html>

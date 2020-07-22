@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <!-- Font awesome -->
+  <script defer="" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- My stylesheet -->
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../script.js" defer></script>
+
+  <title>André Nascimento</title>
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="title">
+        André Nascimento
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./andreNascimentoCV.pdf">Resume <i class="fas fa-download"></i></a></li>
+          <li><a href="#" id="display-language">Language <i class="fas fa-chevron-down"></i></a></li>
+        </ul>
+      </div>
+      <div class="language-options">
+        <ul>
+          <li><a href="../pt/index.html"><img style="width:1.2rem" src="../images/brazil.svg" alt="brazil-flag"> PT-BR</li></a>
+          <li><a href="index.html"><img style="width:1.2rem" src="../images/us.svg" alt="us-flag"> EN-US</li></a>
+        </ul>
+      </div>
+    </nav>
+
+
+  <main>
+    <section class="intro flex flex2">
+      <div class="presentation">
+        <p style="font-size:1.6rem">ANDRÉ NASCIMENTO</p>
+        <p>Welcome! I'm a self-taught full stack developer/geophysicist based in Brasília, Brazil.
+          I have a great passion for development and research.</p>
+      </div>
+      <div class="read-more-btn">
+        <a href="#portfolio">Read more</a>
+        <p><i class="fas fa-chevron-down"></i></p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio colored-section">
+      <div class="text-container intro-port">
+        <h2 class="title-font">Portfolio</h2>
+        <p>Here you can check some projects which present some of my skills.
+          Each project presents a link to the source code, hosted on GitHub,
+          and a link to a live version of the web application. Live versions
+        of applications implemented with React are hosted on
+        <a style="text-decoration:none; color:#F57FD0" href="https://codesandbox.io/" target="_blank">CodeSandBox</a>,
+      and it might be necessary to use another browser to properly display them.</p>
+      </div>
+      <div class="card-container flex">
+        <div class="card">
+          <img class="port-img" src="../images/Restful-countries-api.png" alt="countries">
+          <div class="port-info">
+            <span>Find useful and cool information about most countries on Earth. Built with React.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/countries" target="_blank"><button type="button" name="button">View code <i class="fas fa-code"></i></button></a>
+            <a href="https://bcjl1.csb.app/" target="_blank"><button type="button" name="button">View live <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Secrets.png" alt="secrets">
+          <div class="port-info">
+            <span>Don't keep your secrets, share them anonymously!</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/secrets" target="_blank"><button type="button" name="button">View code <i class="fas fa-code"></i></button></a>
+            <a href="https://a-secrets-app.herokuapp.com/" target="_blank"><button type="button" name="button">View live <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Dashboard.png" alt="dashboard">
+          <div class="port-info">
+            <span>A dashboard which displays, in a intuitive way, a summary of your current social media numbers.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/social-media-dashboard" target="_blank"><button type="button" name="button">View code <i class="fas fa-code"></i></button></a>
+            <a href="https://178i9.csb.app/" target="_blank"><button type="button" name="button">View live <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Rock-paper-scissors.png" alt="rps">
+          <div class="port-info">
+            <span>Beat the computer in the classic Rock, Paper and Scissors game.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/rock-paper-scissors" target="_blank"><button type="button" name="button">View code <i class="fas fa-code"></i></button></a>
+            <a href="https://nascimentoandre.github.io/rock-paper-scissors/" target="_blank"><button type="button" name="button">View live <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Notes.png" alt="notes">
+          <div class="port-info">
+            <span>Use Notes to plan your day and remind yourself of the important things you have to do.</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/notes" target="_blank"><button type="button" name="button">View code <i class="fas fa-code"></i></button></a>
+            <a href="https://qb1ci.csb.app/" target="_blank"><button type="button" name="button">View live <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="port-img" src="../images/Tindog.png" alt="tindog">
+          <div class="port-info">
+            <span>Help your dog find the love of their life with TinDog!</span>
+          </div>
+          <div class="port-buttons">
+            <a href="https://github.com/nascimentoandre/tindog" target="_blank"><button type="button" name="button">View code <i class="fas fa-code"></i></button></a>
+            <a href="https://nascimentoandre.github.io/tindog/" target="_blank"><button type="button" name="button">View live <i class="fab fa-chrome"></i></button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="text-container">
+        <h2 class="title-font">Skills</h2>
+      </div>
+      <div class="flex card-container">
+        <div class="skill-card">
+          <h3>Programming languages</h3>
+          <hr>
+          <ul>
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <hr>
+          <ul>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-react"></i> React</li>
+            <li><img id="icon-bootstrap" src="../images/bootstrap.svg"> Bootstrap</li>
+            <li><img class="icon" src="../images/jquery-horizontal.svg"> jQuery</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <hr>
+          <ul>
+            <li><i class="fab fa-node"></i> NodeJS</li>
+            <li><i class="fab fa-node-js"></i> ExpressJS</li>
+            <li><img class="icon" src="../images/mongoDB.svg"> MongoDB</li>
+            <li><i class="fas fa-lock"></i> Authentication and security</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Other</h3>
+          <hr>
+          <ul>
+            <li><i class="fas fa-terminal"></i> Bash command line</li>
+            <li><i class="fab fa-git"></i> Git</li>
+            <li><i class="fab fa-github"></i> GitHub</li>
+            <li><i class="fas fa-cloud-download-alt"></i> RESTful APIs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="education colored-section">
+      <div class="text-container">
+        <h2 class="title-font">Education</h2>
+        <div class="flex">
+          <div style="width: 20rem">
+            <h3><i class="fas fa-graduation-cap"></i> University of Brasília (2017-2019)</h3>
+            <span>Master's degree, Applied Geosciences and Geodynamics.</span>
+            <br>
+            <span>Advisor: <a href="http://lattes.cnpq.br/1804846635564396" target="_blank">George Sand L. A. de França.</a></span>
+          </div>
+          <div style="width: 20rem">
+            <h3><i class="fas fa-graduation-cap"></i> University of Brasília (2013-2017)</h3>
+            <span>Bachelor's degree, Geophysics.</span>
+            <br>
+            <span>Advisor: <a href="http://lattes.cnpq.br/1653761563295281" target="_blank">Monica Giannoccaro Von Huelsen.</a></span>
+          </div>
+        </div>
+        <div>
+          <h2 class="title-font">Some things I want to teach myself in 2020</h2>
+          <ul style="margin-left:4rem; padding-bottom:3rem">
+            <li>Django;</li>
+            <li>Machine/deep learning;</li>
+            <li>C++;</li>
+            <li>Blockchain;</li>
+            <li>Trading.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="text-container">
+        <h2 class="title-font">Stay connected</h2>
+      </div>
+      <div class="flex card-container">
+        <a style="text-decoration:none; color:black" href="mailto:andre_vinicius1@live.com">
+          <div class="contact-item">
+            <i class="far fa-envelope contact-icon"></i>
+            <h4>Email</h4>
+            <span>Send me an email.</span>
+          </div>
+        </a>
+        <a style="text-decoration:none; color:black" href="https://github.com/nascimentoandre" target="_blank">
+          <div class="contact-item">
+            <i class="fab fa-github contact-icon"></i>
+            <h4>GitHub</h4>
+            <span>Check out my GitHub repository.</span>
+          </div>
+        </a>
+        <a style="text-decoration:none; color:black" href="https://codesandbox.io/u/nascimentoandre" target="_blank">
+          <div class="contact-item">
+            <img id="icon-csb" class="contact-icon" src="../images/codesandbox.svg" alt="csb">
+            <h4>CodeSandBox</h4>
+            <span>Mainly React sand boxes.</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>André Nascimento</p>
+  </footer>
+</body>
+
+</html>
